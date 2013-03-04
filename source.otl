@@ -1,0 +1,166 @@
+<:title=Mesos community recommendations :timer=1 :last_mod=1
+
+summary
+	intro
+	plan
+	landing page
+details
+	intro
+		Mesos today
+			in production, helpful, scalable
+			poor documentation, rough/unstable look, not approachable
+			who _really_ uses it? and in what capacity?
+		Mesos in 2014
+			integrates seamlessly with many frameworks
+			thriving community, pre-built binaries, feels stable
+			de-facto cluster management framework in the industry
+	why OSS (OPTIONAL)
+		better software
+		users can customize it
+		more fun/inspiring for developers working on Mesos
+		security patches, bug fixes, documentation improvements, testing
+		unsolicited ideas: honest/raw/blunt/open
+		cross-pollination with other companies
+	plan
+		iterative, responsive: test, measure, act, repeat
+		won't impact existing technical roadmap
+		focused on attracting attention/users/devs to Mesos
+			advocacy, leveraging OSS benefits
+			approachability, belonging
+			not necessarily bugs, features
+		includes stuff I could do or help with, measure
+		eventually: continue or hand off to other community maintainer(s)
+		establish repeatable model for other Twitter OSS projects
+		1 month - Apr 1st, 2013
+			gather baseline project stats
+				downloads per day
+				commits per day
+				patches accepted per day
+				mailing list messages per day
+				number of users on "Powered By" page
+				screencast views
+			apply for Google Summer of Code 2013
+				identify project ideas, mentors, admin(s)
+			identify new documentation system
+			begin rewriting documentation
+			docs: quick start, ec2 tips, dev guide, building, full install
+			make sure devs wish to remain in Apache
+			settle on a logo (MESOS-337)
+			create a screencast (example: start, see web UI)
+			resolve two JIRA issues (example: migrate wiki off github)
+			begin sending out weekly dev activity reports - [http://symfony.com/blog/a-week-of-symfony-317-21-27-january-2013 example]
+			send rep to [http://tinyurl.com/a82gnam ACNA13 BarCamp]
+			recognize one contributor - [http://symfony.com/blog/new-in-symfony-2-2-autocomplete-on-the-command-line example]
+		2 months - May 1, 2013
+			automate creation of OS X, .rpm, .deb packages
+			publish one non-scientific article mentioning Mesos
+			docs: configuration, framework guides
+			send rep to another conference/meetup
+				ideally related to scalability/HPC/big data
+				coopt scalability meetup or host Mesos meetup
+			automate weekly dev activity report generation
+			resolve two JIRA issues
+			gather latest project stats
+			recognize one contributor
+			progress check: project stats deltas?
+			progress check: how did ACNA13 BarCamp go?
+			progress check: how do people like new documentation?
+			progress check: do people read/like activity reports?
+			progress check: Apach Incubation graduation status?
+		3 months - June 1, 2013
+			get Mesos on FLOSS Weekly
+			docs: feature guides, internals, any other last bits
+			ensure Mesos presence at one meetup/conference per month
+			resolve two JIRA issues
+			gather latest project stats
+			recognize one contributor
+			progress check: project stats deltas?
+			progress check: any new independent committers?
+			progress check: how did latest conferences/meetups go?
+			progress check: how is Google Summer of Code 2013 progressing?
+			progress check: how many downloads for OS X, .rpm, .deb packages?
+			progress check: how do people like new documentation?
+			progress check: do people read/like activity reports?
+			progress check: Apach Incubation graduation status?
+		6 months - September 1, 2013
+			docs: hold documentation sprint
+				review all docs
+			host Mesos developer summit and hack week
+				part of greater Twitter OSS event?
+			ensure Mesos presence at one meetup/conference per month
+			recognize one contributor per month
+			resolve two JIRA issues per month
+			gather latest project stats
+			progress check: project stats deltas?
+			progress check: any new independent committers?
+			progress check: how did latest conferences/meetups go?
+			progress check: how is Google Summer of Code 2013 progressing?
+			progress check: how many downloads for OS X, .rpm, .deb packages?
+			progress check: Apach Incubation graduation status?
+		9 months - December 1, 2013
+			ensure Mesos presence at one meetup/conference per month
+			recognize one contributor per month
+			resolve two JIRA issues per month
+			gather latest project stats
+			progress check: project stats deltas?
+			progress check: any new independent committers?
+			progress check: how did latest conferences/meetups go?
+			progress check: how was documentation sprint?
+			progress check: was Google Summer of Code 2013 successful?
+			progress check: Apach Incubation graduation imminent/successful?
+		12 months - March 1, 2014
+			decide on Google Summer of Code 2014
+			ensure Mesos presence at one meetup/conference per month
+			recognize one contributor per month
+			resolve two JIRA issues per month
+			gather latest project stats
+			progress check: project stats deltas?
+			progress check: any new independent committers?
+			progress check: how did latest conferences/meetups go?
+			progress check: Apach Incubation graduation imminent/successful?
+	landing page
+		purpose: quick overview, search engine indexing
+		very short description
+		top-level navigation
+			quick start
+			docs
+			license
+			source code
+			download
+			community (mailing lists, IRC, etc)
+		screenshot(s) of web UI
+		screencast(s)
+		other bits
+			features
+			who uses Mesos? / Powered By
+			research
+			FAQ
+		existing "stack" graphic
+		graphic from research paper
+		news: include only if dynamic
+brainstorm
+	foster partnerships/relationships with Google, Amazon
+		contact friends, former coworkers
+	some ideas on good examples or potential partnerships to grow the community
+	tools should be chosen by those that use them
+		I can provide ideas (ex: AsciiDoc for documentation)
+		surveys/voting can be used
+		even better: two people pick a tool, send a status update
+	documentation reboot
+		start fresh, use good stuff from wiki
+		wiki remains for more fluid/temporary docs
+	focus culture on good software stewardship (not specific to OSS)
+	foster consensus - [http://tinyurl.com/azsf6kq ideas spreadsheet] with +1/0/-1
+		better yet: track in JIRA and using JIRA voting
+	encourage devs/community members to blog and tweet
+		what's new & cool, stuff they're proud of
+	move automatic emails (reviewboard, JIRA, jenkins) to separate list
+		but don't segregate user and dev mailing lists
+	start a Mesos IRC channel
+	create wikipedia page
+		currently [http://en.wikipedia.org/wiki/Mesos taken by MapleStory]
+	mirror mesos-dev mailing list to gmane
+	track these goals in JIRA
+	what makes OSS hard? (conversation w/Ben Mahler and Vinod Kone)
+		upgrades (mesos doesn't have an upgrade system)
+		backwards compatibility breaks
