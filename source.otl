@@ -118,7 +118,7 @@ details
 			progress check: any new independent committers?
 			progress check: how did latest conferences/meetups go?
 			progress check: Apach Incubation graduation imminent/successful?
-	landing page
+	[homepage.jpg landing page redesign]
 		purpose: quick overview, search engine indexing
 		very short description
 		top-level navigation
@@ -164,3 +164,6 @@ brainstorm
 	what makes OSS hard? (conversation w/Ben Mahler and Vinod Kone)
 		upgrades (mesos doesn't have an upgrade system)
 		backwards compatibility breaks
+about this document
+	[https://github.com/meonkeys/mesos-recommend/blob/gh-pages/source.otl VimOutliner-formatted source]
+	[https://github.com/meonkeys/mesos-recommend fork me on github]
